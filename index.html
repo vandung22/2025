@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Store Tải Linh Tinh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .store-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .item {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+    }
+
+    .item h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .item p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .item button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .item button:hover {
+      background-color: #45a049;
+    }
+
+    @media (max-width: 600px) {
+      .item {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Store Tải Linh Tinh</h1>
+
+  <div class="store-container">
+    <div class="item">
+      <h2>File A</h2>
+      <p>Mô tả ngắn gọn cho file A</p>
+      <button onclick="window.location.href='https://example.com/file-a.zip'">Tải về</button>
+    </div>
+
+    <div class="item">
+      <h2>Tool B</h2>
+      <p>Mô tả tool hoặc link tải</p>
+      <button onclick="window.location.href='https://example.com/tool-b.exe'">Tải về</button>
+    </div>
+
+    <div class="item">
+      <h2>Tài liệu C</h2>
+      <p>File PDF hoặc tài liệu học tập</p>
+      <button onclick="window.location.href='https://example.com/doc-c.pdf'">Tải về</button>
+    </div>
+    
+    <!-- Thêm item mới ở đây -->
+  </div>
+
+</body>
+</html>
